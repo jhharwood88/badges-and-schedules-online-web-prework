@@ -1,4 +1,4 @@
-def badge_maker(name)
-  name = attendees
+def badge_maker(attendees)
+  attendees.each 
   puts "Hello, my name is #{name}."
 end
